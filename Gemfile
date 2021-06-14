@@ -51,6 +51,7 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
   #
+  gem 'rexml'
   gem 'minitest-reporters'
   gem 'mini_backtrace'
   gem 'guard-minitest'
