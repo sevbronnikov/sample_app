@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.0'
+gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'bcrypt'
 gem 'mysql2'
@@ -62,7 +63,7 @@ end
 group :production do
   # Use Puma as the app server
   gem 'puma', '~> 5.0'
-#  gem 'rails_12factor'
+  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
