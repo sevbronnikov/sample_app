@@ -1,0 +1,11 @@
+Started with run options --seed 6647
+
+
+Progress: |[0m[1000D[K[31mERROR[0m UsersLoginTest#test_login_with_valid_information (4.09s)
+Minitest::UnexpectedError:         ArgumentError: unknown keyword: :session
+            test/integration/users_login_test.rb:21:in `block in <class:UsersLoginTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m|
+
+Finished in 4.11106s
+2 tests, 4 assertions, [31m0 failures, 1 errors, [0m[33m0 skips[0m
