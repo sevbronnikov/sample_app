@@ -275,6 +275,7 @@ DEPENDENCIES
   mini_backtrace
   minitest-reporters
   mysql2
+  pry
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.3, >= 6.1.3.2)
